@@ -192,3 +192,11 @@ aside button{
 aside button:hover{
     background: linear-gradient(0deg, #d0498d, #ae2c86);
 }
+app{
+    width: 100%;
+    height: auto;
+    background: var(--color-5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
