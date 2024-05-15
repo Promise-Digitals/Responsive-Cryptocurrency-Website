@@ -6,6 +6,8 @@
     <title>Responsive Cryptocurrency Website</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
+    <!-- CSS for bootstraps icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
     <header>
@@ -62,7 +64,75 @@
     <div class="converter">
         <h1>Crypto Converter</h1>
         <div class="cards">
+
+            <div class="card">
+                <div class="select">
+                    <h4 id="coin_first">B</h4>
+                    <div class="select1">
+                        <h6>GIVE</h6>
+                        <select value="Bitcoin" id="coin">
+                            <option value="Bitcoin">Bitcoin</option>
+                            <option value="Ethereum">Ethereum</option>
+                            <option value="Tether">Tether</option>
+                            <option value="BNB">BNB</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="enter_bitcoin">
+                    <input type="text" value="0.1" id="crypto">
+                    <h6 id="btc">BTC</h6>
+                </div>
+                <p>Rate expressed in Digitals Currency</p>
+            </div>
+
+            <div class="card2"><i class="bi bi-arrow-left-right"></i></div>
             
+            <div class="card">
+                <div class="select">
+                    <h4 id="gov_coins">$</h4>
+                    <div class="select1">
+                        <h6>GIVE</h6>
+                        <select value="Dollar" id="coins">
+                            <option value="Dollar">Dollar</option>
+                            <option value="Rupee">Rupee</option>
+                            <option value="Riyal">Riyal</option>
+                            <option value="Dirham">Dirham</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="enter_bitcoin">
+                    <input type="text" value="1997.45" id="gov">
+                    <h6 id="gov-coin">USD</h6>
+                </div>
+                <p>Rate expressed in Government Currency</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="rocket">
+        <div class="rocket_content">
+            <h1>Cryotis Perfect Services that Works for You!</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsam officia minus sed cum reprehenderit illo voluptatum non alias? Odit sint deserunt, architecto blanditiis cupiditate unde temporibus id sequi quo!</p>
+            <ul>
+                <li>Mobile App</li>
+                <li>Exchange Services</li>
+                <li>Insurance Protection</li>
+                <li>Credit Card user</li>
+                <li>Secure Storage</li>
+                <li>Multicurrency Wallet</li>
+            </ul>
+            <button>Discover Now</button>
+        </div>
+        <div class="rocket_img">
+            <img src="/images/Crypto Rocket.png" alt="">
+        </div>
+    </div>
+
+    <div class="road_map">
+        <h1>Crypto Road Map</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint, eveniet repellendus quam repudiandae corrupti. Qui nisi ipsa optio odio?</p>
+        <div class="map">
+            <div class="card"></div>
         </div>
     </div>
 
