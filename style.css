@@ -475,3 +475,228 @@ aside button:hover{
     font-size: 14px;
     text-align: center;
 }
+.road_map .map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.road_map .map .card{
+    width: 355px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.road_map .map .card .title{
+    width: 130px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: var(--color-1);
+}
+.road_map .map .card .title h6{
+    font-size: 12px;
+    color: var(--color-2);
+}
+.road_map .map .card .title h4{
+    font-size: 14px;
+}
+.road_map .map .card h5{
+    width: 30px;
+    height: 1px;
+    background: var(--color-2);
+    margin: 15px 5px ;
+}
+.road_map .map .card h2{
+    position: relative;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: var(--color-6);
+}
+.road_map .map .card h2::before{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 45px;
+    background: var(--color-6);
+    top: 5px;
+    left: 7px;
+}
+.road_map .map .card:nth-child(even){
+    flex-direction: row-reverse;
+}
+.road_map .map .card:nth-child(even) .title{
+    align-items: flex-start;
+}
+.road_map .map .card:nth-last-child(1) h2::before{
+    display: none;
+}
+.road_map .map .card:nth-last-child(1) h2{
+    background: #3f3f7d;
+}
+.road_map .map .card:nth-last-child(2) h2{
+    background: #3f3f7d;
+}
+.road_map .map .card:nth-last-child(2) h2::before{
+    background: #3f3f7d;
+}
+.road_map .map .card:nth-last-child(3) h2{
+    background: #3f3f7d;
+}
+.road_map .map .card:nth-last-child(3) h2::before{
+    background: #3f3f7d;
+}
+.man{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: url(/images/Man_bg.png)no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.man .man_img, .man_content{
+    width: 32%;
+    height: auto;
+    margin-top: 100px;
+}
+.man .man_content{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.man .man_content h1{
+    position: relative;
+    font-size: 25px;
+    line-height: 40px;
+    color: var(--color-1);
+    margin-top: 50px;
+    text-align: right;
+}
+.man .man_content p{
+    margin: 60px 0 10px;
+    font-size: 12px;
+    color: var(--color-2);
+    text-align: right;
+}
+.man .man_content .client_cole{
+    display: flex;
+    align-items: center;
+}
+.man .man_content .client_cole .cont{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-top: 10px;
+    color: var(--color-1);
+}
+.man .man_content .client_cole .cont .bi{
+    font-size: 10px;
+    margin-left: 2px;
+    color: #ae2c86;
+}
+.man .man_content .client_cole .cont h4{
+    font-size: 18px;
+    text-align: right;
+    line-height: 15px;
+    margin-top: 10px;
+}
+.man .man_content .client_cole .cont p{
+    font-size: 12px;
+    text-align: right;
+    margin-top: 0;
+    font-weight: bold;
+    color: var(--color-6);
+}
+.man .man_content .client_cole .img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.man .man_content .client_cole .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.news{
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    background: var(--color-5);
+}
+.news h1{
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+    color: var(--color-1);
+    padding-top: 40px;
+}
+.news h1::before{
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    border-radius: 10px;
+    background:  var(--color-6);
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.news .cards{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.news .cards .card{
+    width: 350px;
+    height: 350px;
+    background: #28284e;
+    border-radius: 15px;
+    color: var(--color-1);
+    padding: 40px;
+    box-shadow: 0 30px 25px -25px rgba(0, 183, 197, .5);
+}
+.news .cards .card h6{
+    color: var(--color-7);
+}
+.news .cards .card h2{
+    font-size: 18px;
+}
+.news .cards .card p{
+    font-size: 14px;
+    margin: 20px 0px;
+    line-height: 25px;
+    color: var(--color-2);
+}
+.news .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.news .btn button{
+    padding: 12px 25px;
+    background: linear-gradient(0deg, #ae2c86, #d0498d);
+    border-radius: 30px;
+    color: var(--color-1);
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    margin: 50px auto 30px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+.news .btn button:hover{
+    background: linear-gradient(0deg, #d0498d, #ae2c86);
+}
